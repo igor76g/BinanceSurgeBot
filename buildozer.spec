@@ -6,7 +6,7 @@ source.dir = .
 source.include_exts = py,html
 source.exclude_dirs = .github,bin,.buildozer,android_extra,tests
 version = 1.0.0
-requirements = hostpython3==3.11.5,python3==3.11.5,kivy==2.3.0,pyjnius,android,openssl,certifi
+requirements = hostpython3==3.11.5,python3==3.11.5,kivy,pyjnius,android,openssl,certifi
 orientation = portrait
 fullscreen = 0
 services = Bot:service.py:foreground:sticky:foregroundServiceType=dataSync
